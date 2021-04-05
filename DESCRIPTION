@@ -1,0 +1,21 @@
+Package: tensorGMam
+Type: Package
+Title: tensorGMam
+Version: 0.1.0
+Authors@R: c(person(given = "Xu", family = "Liu", role = c("aut","cre"), email = "liu.xu@sufe.edu.cn"),
+             person(given = "Jian", family = "Huang", role = "aut"),
+             person(given = "Yiming", family = "Liu", role = "aut"))
+Author: Xu Liu [aut,cre], 
+        Jian Huang [aut],
+        Yiming Liu [aut]
+Maintainer: Xu Liu <liu.xu@sufe.edu.cn>
+Description: A tensor Estimation approach to integrative mulit-view multivariate additive models. The B-splines are used to approximate unknown function. The number of predictors can be diverged as sample size increases, in which the penalty LASSO, MCP or SCAD can be used.
+License: GPL (>= 2)
+Imports: splines, Rcpp (>= 0.11.15), RcppEigen (>= 0.3.2.3.0)
+LinkingTo: Rcpp, RcppEigen
+RoxygenNote: 6.0.1
+NeedsCompilation: yes
+Repository: github
+URL: https://github.com/xliusufe/tensorGMam
+Encoding: UTF-8
+Packaged: 2019-09-20 01:35:21 UTC; admin

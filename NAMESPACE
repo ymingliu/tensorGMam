@@ -1,0 +1,8 @@
+import('splines')
+importFrom("graphics", "lines")
+importFrom("stats", "quantile", "rnorm", "runif")
+useDynLib(tensorGMam, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+export(gmam,gmam_dr,gmam_sparse,gmam_sparse_dr, TransferModalUnfoldings,generateData,
+       gmam4,gmam4_dr,gmam4_sparse,gmam4_sparse_dr, TransferModalUnfoldingsT4,generateDataT4)
